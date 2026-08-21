@@ -12,15 +12,15 @@ layers:
   - O
   - P
   - A
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: G, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: H, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: J, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: Mark Layer}
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
   - Z
   - X
   - C
@@ -167,7 +167,7 @@ layers:
   - _
   - ''''
   - '"'
-  - {t: \, type: held}
+  - \
   - KP NUMLOCK
   - F11
   - '{'
@@ -183,7 +183,7 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - $$mdi:keyboard-space$$
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: ▽, type: trans}
