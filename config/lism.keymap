@@ -51,7 +51,7 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q        &kp W       &kp E           &kp R           &kp T                                      &kp Y           &kp U           &kp I            &kp O         &kp P
+&kp Q        &kp W       &kp E           &kp R           &kp T                                      &kp Y           &kp U           &kp I            &kp O         &mt MINUS P
 &kp A        &kp S       &kp D           &kp F           &kp G                                      &kp H           &kp J           &kp K            &kp L         &kp SEMICOLON
 &kp Z        &kp X       &kp C           &kp V           &kp B                                      &kp N           &kp M           &kp COMMA        &kp DOT       &kp SLASH
 &lt 4 LCTRL  &lt 3 LGUI  &lt 0 LALT      &msc SCRL_UP    &lt 2 SPACE      &lt 1 BACKSPACE    &mo 1  &mo 2           &msc SCRL_UP    &to 0            &lt 3 DELETE  &lt 4 ENTER
@@ -77,11 +77,11 @@
         layer_2 {
             display-name = "Number Layer";
             bindings = <
-&trans  &trans  &trans    &trans    &trans                                           &trans    &trans    &kp N7     &kp N8    &kp N9
-&trans  &trans  &trans    &trans    &trans                                           &trans    &trans    &kp N4     &kp N5    &kp N6
-&trans  &trans  &trans    &trans    &trans                                           &trans    &trans    &kp N1     &kp N2    &kp N3
-&trans  &trans  &trans    &kp UP    &kp INT_MUHENKAN  &kp INTERNATIONAL_4    &trans  &trans    &kp UP    &to 0      &lt 3 N0  &to 4
-                &kp LEFT  &kp DOWN  &kp RIGHT                                        &kp LEFT  &kp DOWN  &kp RIGHT
+&kp ESC     &trans    &trans    &trans    &trans                                           &trans    &trans    &kp N7     &kp N8    &kp N9
+&kp TAB     &trans    &trans    &trans    &trans                                           &trans    &trans    &kp N4     &kp N5    &kp N6
+&kp LSHIFT  &trans    &trans    &trans    &trans                                           &trans    &trans    &kp N1     &kp N2    &kp N3
+&kp LCTRL   &kp LGUI  &kp LALT  &kp UP    &kp INT_MUHENKAN  &kp INTERNATIONAL_4    &trans  &trans    &kp UP    &to 0      &lt 3 N0  &to 4
+                      &kp LEFT  &kp DOWN  &kp RIGHT                                        &kp LEFT  &kp DOWN  &kp RIGHT
             >;
 
             sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
@@ -90,11 +90,11 @@
         layer_3 {
             display-name = "Mark Layer";
             bindings = <
-&trans  &kp F2  &kp F3  &kp F4  &kp F5                    &kp F6     &kp F7     &kp F8     &kp F9     &kp F10
-&trans  &trans  &trans  &trans  &trans                    &kp PIPE   &kp COLON  &kp MINUS  &kp CARET  &kp BACKSLASH
-&trans  &trans  &trans  &trans  &trans                    &kp UNDER  &kp SEMI   &kp LBKT   &kp RBKT   &kp GRAVE
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &to 0      &lt 3 F11  &lt 4 F12
-                &trans  &trans  &trans                    &trans     &trans     &trans
+&kp ESC     &kp F2    &kp F3    &kp F4  &kp F5                    &kp F6     &kp F7     &kp F8     &kp F9     &kp F10
+&kp TAB     &trans    &trans    &trans  &trans                    &kp PIPE   &kp COLON  &kp MINUS  &kp CARET  &kp BACKSLASH
+&kp LSHIFT  &trans    &trans    &trans  &trans                    &kp UNDER  &kp SEMI   &kp LBKT   &kp RBKT   &kp GRAVE
+&kp LCTRL   &kp LGUI  &kp LALT  &trans  &trans  &trans    &trans  &trans     &trans     &to 0      &lt 3 F11  &lt 4 F12
+                      &trans    &trans  &trans                    &trans     &trans     &trans
             >;
         };
 
