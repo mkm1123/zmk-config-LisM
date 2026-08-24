@@ -89,7 +89,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: Default Layer, h: toggle}
   - {t: Mark Layer, h: toggle}
   - {t: Device Layer, h: toggle}
   - {t: ▽, type: trans}
@@ -138,7 +138,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - $$mdi:arrow-up-bold$$
-  - {t: ▽, type: trans}
+  - {t: Default Layer, h: toggle}
   - {t: '0', h: Mark Layer}
   - {t: Device Layer, h: toggle}
   - $$mdi:arrow-left-bold$$
