@@ -10,7 +10,7 @@ layers:
   - U
   - I
   - O
-  - P
+  - {t: P, h: '-'}
   - A
   - S
   - D
@@ -99,7 +99,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Number Layer:
-  - {t: ▽, type: trans}
+  - $$mdi:keyboard-esc$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -109,7 +109,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - {t: ▽, type: trans}
+  - $$mdi:keyboard-tab$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -119,7 +119,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -129,9 +129,9 @@ layers:
   - '1'
   - '2'
   - '3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:arrow-up-bold$$
   - {t: INT MUHENKAN, type: held}
   - INTERNATIONAL 4
@@ -148,7 +148,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   Mark Layer:
-  - {t: ▽, type: trans}
+  - $$mdi:keyboard-esc$$
   - F2
   - F3
   - F4
@@ -158,7 +158,7 @@ layers:
   - F8
   - F9
   - F10
-  - {t: ▽, type: trans}
+  - $$mdi:keyboard-tab$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -168,7 +168,7 @@ layers:
   - '-'
   - ^
   - \
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -178,9 +178,9 @@ layers:
   - LBKT
   - RBKT
   - '`'
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:apple-keyboard-command$$', type: held}
+  - $$mdi:apple-keyboard-option$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
